@@ -1,0 +1,12 @@
+﻿@model AspNetMvc.Models.SuperHeroes.SuperHero
+
+<h3>@Model.Name</h3>
+<p>Age: @Model.Age</p>
+<h5>List of superpowers</h5>
+<ul>
+    @foreach (var power in Model.Powers)
+    {
+        <li>@power</li>
+    }
+</ul>
+<a asp-controller="SuperHero" asp-action="Index">Back to the list</a>

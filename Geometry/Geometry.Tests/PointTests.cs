@@ -57,4 +57,17 @@ public class PointTests
 
         point.Distance.Should().Be(5);
     }
+
+    [Fact]
+    public void A()
+    {
+        // var joined = string.Join(", ", new List<string> { "First", "Second", "Third" });
+        var joined = new List<string> { "First", "Second", "Third" }.JoinWith(", ");
+        var i = int.Parse("aax2"); 
+    }
+}
+
+public static class X 
+{
+    public static string JoinWith(this IEnumerable<string> input, string separator) => string.Join(separator, input);
 }

@@ -1,0 +1,20 @@
+﻿@model AspNetMvc.Models.SuperHeroes.SuperHeroCreate
+
+<form method="post" asp-controller="SuperHero" asp-action="Create">
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="Name" name="Name" asp-for="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="Age" class="form-label">Age</label>
+        <input type="number" class="form-control" id="Age" name="Age" asp-for="Age">
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="Powers" class="form-label">Powers</label>
+        <input type="text" class="form-control" id="Powers" name="Powers" asp-for="Powers">
+        <span asp-validation-for="Powers" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
