@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetEmpty", "AspNetEmpty\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetMvc", "AspNetMvc\AspNetMvc.csproj", "{FE8CC2D8-B371-4920-9367-6CDF2047611C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebApi", "AspNetWebApi\AspNetWebApi.csproj", "{10A139C2-7613-4E13-ADC0-FF8762ED5945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetWebApi", "AspNetWebApi\AspNetWebApi.csproj", "{10A139C2-7613-4E13-ADC0-FF8762ED5945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCodeFirst", "EfCodeFirst\EfCodeFirst.csproj", "{0AAD29D7-A00D-45AF-92F6-29583E94ED32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{10A139C2-7613-4E13-ADC0-FF8762ED5945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A139C2-7613-4E13-ADC0-FF8762ED5945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A139C2-7613-4E13-ADC0-FF8762ED5945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAD29D7-A00D-45AF-92F6-29583E94ED32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAD29D7-A00D-45AF-92F6-29583E94ED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAD29D7-A00D-45AF-92F6-29583E94ED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAD29D7-A00D-45AF-92F6-29583E94ED32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
